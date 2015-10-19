@@ -12,10 +12,9 @@ bower i squad --save
 ## How to use?
 
 ```js
-let buzz = str => str + '... zzz...';
-let scream = str => str.toUpperCase();
-    
-var noise = squad(buzz, scream);
+let buzz    = str => str + '... zzz...';
+let scream  = str => str.toUpperCase();
+let noise   = squad(buzz, scream);
 
 noise('hello');
 // returns
