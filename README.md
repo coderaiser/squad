@@ -19,7 +19,7 @@ var noise = squad(buzz, scream);
 
 noise('hello');
 // returns
-'HELLO... zzz....
+'HELLO... zzz....'
 ```
 
 ## License
