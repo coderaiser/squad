@@ -1,0 +1,26 @@
+{
+  "name": "squad",
+  "version": "1.0.0",
+  "description": "right-to-left function composition",
+  "main": "lib/squad.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/squad.git"
+  },
+  "keywords": [
+    "map",
+    "array"
+  ],
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderaiser/squad/issues"
+  },
+  "homepage": "https://github.com/coderaiser/squad",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
+}

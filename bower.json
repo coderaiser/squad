@@ -1,0 +1,26 @@
+{
+  "name": "mapa",
+  "version": "1.0.0",
+  "homepage": "https://github.com/coderaiser/mapa",
+  "authors": [
+    "coderaiser <mnemonic.enemy@gmail.com>"
+  ],
+  "description": "right-to-left function composition",
+  "main": "lib/mapa.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "map",
+    "array"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
