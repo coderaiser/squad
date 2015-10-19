@@ -1,6 +1,6 @@
 # squad [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
 
-Right-to-left function composition.
+Right-to-left function composition. The rightmost function may have any arity. The remaining functions must be unary.
 
 ## Install
 
