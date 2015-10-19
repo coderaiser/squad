@@ -7,14 +7,14 @@
     let buzz = str => str + '... zzz...';
     let scream = str => str.toUpperCase();
     
-    test('compose functions f(g(h)', t => {
+    test('compose functions f(g(x)', t => {
         let noise = squad(buzz, scream);
         
         t.equal(noise('hello'), 'HELLO... zzz...');
         t.end();
     });
     
-    test('compose functions g(f(h)', t => {
+    test('compose functions g(f(x)', t => {
         let noise = squad(scream, buzz);
         
         t.equal(noise('hello'), 'HELLO... ZZZ...');
