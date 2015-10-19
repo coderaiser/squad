@@ -1,0 +1,5 @@
+2015.10.19, v1.1.0
+
+feature:
+- (squad) rightmost function may have any arity
+
