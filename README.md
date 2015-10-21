@@ -12,6 +12,8 @@ bower i squad --save
 ## How to use?
 
 ```js
+let squad   = require('squad');
+
 let buzz    = str => str + '... zzz...';
 let scream  = str => str.toUpperCase();
 let noise   = squad(buzz, scream);
