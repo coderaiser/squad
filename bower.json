@@ -12,8 +12,9 @@
     "node"
   ],
   "keywords": [
-    "map",
-    "array"
+    "compose",
+    "function",
+    "functional"
   ],
   "license": "MIT",
   "ignore": [
