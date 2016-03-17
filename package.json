@@ -25,7 +25,7 @@
   "homepage": "https://github.com/coderaiser/squad",
   "devDependencies": {
     "coveralls": "^2.11.6",
-    "nyc": "^5.6.0",
+    "nyc": "^6.1.1",
     "tape": "^4.2.0"
   }
 }
