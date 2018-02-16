@@ -5,7 +5,7 @@ Right-to-left function composition. The rightmost function may have any arity. T
 ## Install
 
 ```
-npm i squad --save
+npm i squad
 ```
 
 ## How to use?
@@ -13,8 +13,8 @@ npm i squad --save
 ```js
 const squad = require('squad');
 
-const buzz = str => str + '... zzz...';
-const scream = str => str.toUpperCase();
+const buzz = (str) => str + '... zzz...';
+const scream = (str) => str.toUpperCase();
 const noise = squad(buzz, scream);
 
 noise('hello');
