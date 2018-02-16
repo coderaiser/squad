@@ -5,8 +5,13 @@
   "main": "lib/squad.js",
   "scripts": {
     "test": "tape test/*.js",
+    "lint": "eslint lib test",
     "coverage": "nyc npm test",
-    "report": "nyc report --reporter=text-lcov | coveralls"
+    "report": "nyc report --reporter=text-lcov | coveralls",
+    "wisdom": "npm run build",
+    "build": "redrun compile legacy",
+    "compile": "babel lib -d legacy",
+    "legacy": "echo \"module.exports = require('./squad');\" > legacy/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +29,10 @@
   },
   "homepage": "https://github.com/coderaiser/squad",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "coveralls": "^3.0.0",
+    "eslint": "^4.17.0",
     "nyc": "^11.0.2",
     "tape": "^4.2.0"
   }

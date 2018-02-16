@@ -6,21 +6,28 @@ Right-to-left function composition. The rightmost function may have any arity. T
 
 ```
 npm i squad --save
-bower i squad --save
 ```
 
 ## How to use?
 
 ```js
-let squad   = require('squad');
+const squad = require('squad');
 
-let buzz    = str => str + '... zzz...';
-let scream  = str => str.toUpperCase();
-let noise   = squad(buzz, scream);
+const buzz = str => str + '... zzz...';
+const scream = str => str.toUpperCase();
+const noise = squad(buzz, scream);
 
 noise('hello');
 // returns
 'HELLO... zzz....'
+```
+
+## Environments
+
+In old `node.js` environments that supports `es5` only, `squad` could be used with:
+
+```js
+var squad = require('squad/legacy');
 ```
 
 ## License
