@@ -1,6 +1,6 @@
 {
   "name": "squad",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "right-to-left function composition",
   "main": "lib/squad.js",
   "scripts": {
