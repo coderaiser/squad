@@ -80,3 +80,14 @@ test('compose functions f(g(a, b)', t => {
     t.end();
 });
 
+test('squad: compose functions f(g(a, b): array', t => {
+    const noise = squad([
+        scream,
+        buzz,
+        join,
+    ]);
+    
+    t.equal(noise('hello', ' world'), 'HELLO WORLD... ZZZ...');
+    t.end();
+});
+
